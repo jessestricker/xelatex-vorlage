@@ -6,7 +6,7 @@
 
       "type": "process",
       "command": "tectonic",
-      "args": ["-X", "build"],
+      "args": ["-X", "build", "-p"],
 
       "problemMatcher": [],
       "group": {
