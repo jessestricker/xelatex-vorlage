@@ -21,6 +21,8 @@ Diese Pakete werden verwendet:
   Querverweise mit lokalisierten Typenbeschreibungen
 - [_metalogo_](https://ctan.org/pkg/metalogo):
   TeX-Logos
+- [_booktabs_](https://ctan.org/pkg/booktabs):
+  Professionellere Tabellen
 
 ## Verwendung
 
