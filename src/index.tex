@@ -1,23 +1,32 @@
 \documentclass{scrartcl}
 
+% ==============================================================================
+% packages
+
+% math, fonts
 \usepackage[math-style=ISO]{unicode-math}
 \usepackage{libertinus-otf}
 
+% localisation
 \usepackage{polyglossia}
 \setdefaultlanguage{de-DE}
 \usepackage[useregional]{datetime2}
 \usepackage{cleveref}
 
+% misc
 \usepackage{metalogo}
+
+% ==============================================================================
+% metadata
 
 \title{\XeLaTeX-Vorlage}
 \author{Jesse Stricker}
 \date{\DTMdate{2000-01-01}}
 
+% ==============================================================================
+% document
+
 \begin{document}
-
 \maketitle
-
 \input{content}
-
 \end{document}
