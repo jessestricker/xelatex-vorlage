@@ -4,6 +4,10 @@
 \usepackage[math-style=ISO]{unicode-math}
 \usepackage{libertinus-otf}
 
+\usepackage{polyglossia}
+\setdefaultlanguage{de-DE}
+\usepackage{cleveref}
+
 \title{My Title}
 
 \begin{document}
@@ -11,9 +15,10 @@
 \section{Mathematik}
 
 Formeln können im laufenden Text verwendet werden, \(a^2 + b^2 = c^2\),
-oder als eigener Block:
+oder als eigener Block, siehe~\cref{eq:triangular}.
 
 \begin{equation}
+  \label{eq:triangular}
   T_n \coloneqq \sum^{n}_{k=1} = \frac{n(n+1)}{2}
 \end{equation}
 
