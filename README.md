@@ -17,3 +17,11 @@ Diese Pakete werden verwendet:
   Verwendung von OpenType-Schriftarten für Mathematik-Textsatz
 - [_libertinus-otf_](https://ctan.org/pkg/libertinus-otf):
   OpenType-Schriftarten _Libertinus Serif_ und _Libertinus Sans_
+
+## Verwendung
+
+Die Vorlage kann je nach Belieben verwendet werden, empfohlen wird jedoch
+die XeLaTeX-Suite [tectonic](https://tectonic-typesetting.github.io).
+
+Für den Editor [Visual Studio Code](https://code.visualstudio.com/) ist eine
+Standardbuildaufgabe (in [tasks.json](.vscode/tasks.json)) bereits enthalten.
