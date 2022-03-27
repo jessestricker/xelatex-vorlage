@@ -1,7 +1,7 @@
 # XeLaTeX-Vorlage
 
-Dieses Repository enthält eine Vorlage kurze Dokumente in deutscher Sprache
-für das Textsatzprogramm XeLaTeX.
+Dieses Repository enthält eine Vorlage für kurze Dokumente in deutscher Sprache,
+gesetzt mit XeLaTeX.
 
 ## Inhalt
 
@@ -20,7 +20,7 @@ Diese Pakete werden verwendet:
 
 ## Verwendung
 
-Die Vorlage kann je nach Belieben verwendet werden, empfohlen wird jedoch
+Diese Vorlage kann je nach Belieben verwendet werden, ich empfehle allerdings
 die XeLaTeX-Suite [tectonic](https://tectonic-typesetting.github.io).
 
 Für den Editor [Visual Studio Code](https://code.visualstudio.com/) ist eine
