@@ -17,8 +17,12 @@ Diese Pakete werden verwendet:
   OpenType-Schriftarten _Libertinus Serif_ und _Libertinus Sans_
 - [_polyglossia_](https://ctan.org/pkg/polyglossia):
   Lokalisierung ins Deutsche
+- [_datetime2_](https://ctan.org/pkg/datetime2):
+  Lokalisierte Datumsangaben
 - [_cleveref_](https://ctan.org/pkg/cleveref):
-  Querverweise mit Typenbeschreibung
+  Querverweise mit lokalisierten Typenbeschreibungen
+- [_metalogo_](https://ctan.org/pkg/metalogo):
+  TeX-Logos
 
 ## Verwendung
 
