@@ -16,7 +16,7 @@
       "command": "latexmk",
       "args": [
         "-xelatex",
-        "-interaction=nonstopmode",
+        "-halt-on-error",
         "-outdir=${workspaceFolder}/build/latexmk",
         "-cd",
         "${workspaceFolder}/src/index.tex"
