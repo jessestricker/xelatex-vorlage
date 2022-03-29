@@ -25,6 +25,8 @@ Diese Pakete werden verwendet:
   Professionellere Tabellen
 - [_tabularx_](https://ctan.org/pkg/tabularx):
   Automatische Spaltenbreite in Tabellen
+- [_siunitx_](https://ctan.org/pkg/siunitx):
+  SI-Einheiten und Zahlen
 
 ## Verwendung
 

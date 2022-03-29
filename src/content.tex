@@ -1,16 +1,24 @@
+\section{Einheiten}
+
+Es können Einheiten (\unit{\ohm\per\meter}), Zahlen (\num{123456}) und
+Größen (\qty{3.14}{\milli\meter}) verwendet werden.
+
+Außerdem gibt es Listen (\numlist{1;2;3;5;7}) und
+Intervalle (\qtyrange{0.13}{0.67}{\milli\metre}).
+
 \section{Tabellen}
 
 Tabellen werden nur mit horizontalen Balken gesetzt, siehe~\cref{tab:example}.
 
 \begin{table}[htbp]
   \centering
-  \begin{tabularx}{\textwidth}{lXlr}\toprule
-    \# & Land      & ccTLD      & BIP/Kopf 2019 \\ \midrule
-    1  & Luxemburg & \verb|.lu| & 115.839 \$    \\
-    2  & Schweiz   & \verb|.ch| & 82.484 \$     \\
-    3  & Irland    & \verb|.ie| & 80.504 \$     \\
-    4  & Norwegen  & \verb|.no| & 75.294 \$     \\
-    5  & Island    & \verb|.is| & 67.857 \$     \\ \bottomrule
+  \begin{tabularx}{\textwidth}{lXrrr}\toprule
+    \# & Land      & ccTLD        & Fläche / \unit{km^2} & BIP/Kopf / \unit{US\$} (2019) \\ \midrule
+    1  & Luxemburg & \texttt{.lu} & \num{2586}           & \num{115839}                  \\
+    2  & Schweiz   & \texttt{.ch} & \num{41285}          & \num{82484}                   \\
+    3  & Irland    & \texttt{.ie} & \num{69797}          & \num{80504}                   \\
+    4  & Norwegen  & \texttt{.no} & \num{385207}         & \num{75294}                   \\
+    5  & Island    & \texttt{.is} & \num{103125}         & \num{67857}                   \\ \bottomrule
   \end{tabularx}
   \caption{Beispieltabelle mit verschiedenen Daten\label{tab:example}}
 \end{table}
