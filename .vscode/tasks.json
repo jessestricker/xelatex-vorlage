@@ -7,12 +7,21 @@
       "type": "process",
       "command": "tectonic",
       "args": ["-X", "build", "-p"],
+      "group": "build"
+    },
+    {
+      "label": "latexmk build",
 
-      "problemMatcher": [],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
+      "type": "process",
+      "command": "latexmk",
+      "args": [
+        "-xelatex",
+        "-interaction=nonstopmode",
+        "-outdir=${workspaceFolder}/build/latexmk",
+        "-cd",
+        "${workspaceFolder}/src/index.tex"
+      ],
+      "group": "build"
     }
   ]
 }
