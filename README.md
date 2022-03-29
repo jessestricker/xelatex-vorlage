@@ -23,6 +23,8 @@ Diese Pakete werden verwendet:
   TeX-Logos
 - [_booktabs_](https://ctan.org/pkg/booktabs):
   Professionellere Tabellen
+- [_tabularx_](https://ctan.org/pkg/tabularx):
+  Automatische Spaltenbreite in Tabellen
 
 ## Verwendung
 
