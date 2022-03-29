@@ -21,7 +21,10 @@
         "-cd",
         "${workspaceFolder}/src/index.tex"
       ],
-      "group": "build"
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
   ]
 }
