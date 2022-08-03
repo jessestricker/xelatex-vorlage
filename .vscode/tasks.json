@@ -2,14 +2,6 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "tectonic build",
-
-      "type": "process",
-      "command": "tectonic",
-      "args": ["-X", "build", "-p"],
-      "group": "build"
-    },
-    {
       "label": "latexmk build",
 
       "type": "process",

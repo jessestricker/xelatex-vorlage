@@ -38,6 +38,3 @@ Buildaufgaben (in [tasks.json](.vscode/tasks.json)) bereits enthalten:
 - [_latexmk_](https://ctan.org/pkg/latexmk) (empfohlen):\
   Dieses Script automatisiert das Kompilieren des Dokumentes vollständig.
   Es ist in allen TeX-Distributionen enthalten, benötigt allerdings Perl.
-- [_tectonic_](https://tectonic-typesetting.github.io):\
-  Moderne Alternative, welche ohne TeX-Distribution auskommt.
-  Allerdings sind die Pakete etwas veraltet, auf dem Stand von TeX Live 2020.

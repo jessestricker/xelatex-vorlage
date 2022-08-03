@@ -21,7 +21,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: latest
+          tag_name: release
           name: Compilation Output
           body: "Compiled from commit ${{ github.sha }}."
           files: ./src/index.pdf
