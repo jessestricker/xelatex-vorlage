@@ -23,6 +23,10 @@ jobs:
             -outdir=./build/
             -cd
 
+      - name: Print workspace directory tree
+        shell: bash
+        run: find . -path ./.git -prune
+
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
