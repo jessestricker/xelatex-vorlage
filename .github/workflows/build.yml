@@ -20,7 +20,7 @@ jobs:
             -file-line-error
             -halt-on-error
             -interaction=nonstopmode
-            -outdir=./build/
+            -outdir="${{ github.workspace }}/build/"
             -cd
 
       - name: Print workspace directory tree
