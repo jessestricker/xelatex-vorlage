@@ -14,8 +14,9 @@ jobs:
       - name: Compile
         uses: xu-cheng/latex-action@v2
         with:
+          working_directory: ./src/
           latexmk_use_xelatex: true
-          root_file: ./src/index.tex
+          root_file: ./index.tex
 
       - name: Release
         uses: softprops/action-gh-release@v1
