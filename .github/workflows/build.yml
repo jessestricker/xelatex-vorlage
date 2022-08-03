@@ -28,5 +28,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: "release-${{ github.sha }}"
-          name: "Release ${{ github.sha }}"
+          name: "Release"
+          body: "The compilation output from commit ${{ github.sha }}."
           files: ./build/root.pdf
