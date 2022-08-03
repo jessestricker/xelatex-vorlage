@@ -3,6 +3,8 @@
 Dieses Repository enthält eine Vorlage für kurze Dokumente in deutscher Sprache,
 gesetzt mit XeLaTeX.
 
+[**Vorschau 👀**](https://github.com/jessestricker/xelatex-vorlage/releases/download/latest/index.pdf)
+
 ## Inhalt
 
 Diese Pakete werden verwendet:
