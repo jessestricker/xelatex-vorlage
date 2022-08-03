@@ -8,10 +8,12 @@
       "command": "latexmk",
       "args": [
         "-xelatex",
+        "-file-line-error",
         "-halt-on-error",
-        "-outdir=${workspaceFolder}/build/latexmk",
+        "-interaction=nonstopmode",
+        "-outdir=${workspaceFolder}/build/",
         "-cd",
-        "${workspaceFolder}/src/index.tex"
+        "${workspaceFolder}/src/root.tex"
       ],
       "group": {
         "kind": "build",
