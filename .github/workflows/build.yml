@@ -11,21 +11,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Compile
-        uses: xu-cheng/latex-action@v2
+      - name: Set up Nix
+        uses: nixbuild/nix-quick-install-action@v16
         with:
-          root_file: ./src/root.tex
-          args: >
-            -xelatex
-            -file-line-error
-            -halt-on-error
-            -interaction=nonstopmode
-            -outdir="${{ github.workspace }}/build/"
-            -cd
+          nix_conf: experimental-features = nix-command flakes
 
-      - name: Print workspace directory tree
-        shell: bash
-        run: find . -not \( -path ./.git -prune \)
+      - name: Install dependencies
+        run: nix develop
+
+      - name: Build
+        run: nix build
 
       - name: Release
         uses: softprops/action-gh-release@v1
@@ -33,4 +28,4 @@ jobs:
           tag_name: "release-${{ github.sha }}"
           name: "Release"
           body: "The compilation output from commit ${{ github.sha }}."
-          files: ./build/root.pdf
+          files: ./result/root.pdf
